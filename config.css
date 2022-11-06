@@ -1,0 +1,94 @@
+/**
+ *      config.css
+ *
+ *      Configuration file
+ *
+ *
+ *
+ *
+ */
+ body {
+        background-color: #500c00;
+        border-radius: 10px 10px 20px 30px;
+        color: white;
+        padding: 40px 40px 40px 40px;
+        transition-duration: 1s;
+        animation-name: layout-animation;
+        animation-duration: 1s;
+        font-weight: 89px;
+}
+
+li {
+        margin-top: 10px;
+        transition-duration: 2s;
+}
+
+li:hover {
+        font-size: 50px;
+}
+
+.FOIL-navigation-bar-regular {
+        color: white;
+}
+
+.FOIL-button-regular-no-shadow {
+        background-color: rgb(80, 80, 80);
+        border-radius: 10px 10px 20px 30px;
+        color: rgb(255, 255, 255);
+        transition-duration: 1s;
+        box-shadow: -23px -5px 342px 81px rgba(0, 0, 0, 0.75);
+        -webkit-box-shadow: -23px -5px 342px 81px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: -23px -5px 342px 81px rgba(0, 0, 0, 0.75);
+
+}
+
+
+.FOIL-layout-regular-no-shadow {
+        /* brown background color */
+        background-color: #500c00;
+        animation-name: layout-regular-no-shadow;
+        animation-duration: 1s;
+        transition-duration: 1s;
+        border-start-start-radius: 100px;
+        color: white;
+}
+
+
+/*******************************************************
+ *      Font-Size Modifications
+
+ *
+ *
+ *******************************************************/
+
+FOIL-font-size-40 {
+        animation-name: FOIL-font-size-40;
+        animation-duration: 2s;
+        transition-duration: 2s;
+}
+
+FOIL-font-size-40:hover {
+        transform: matrix3d('21');
+        font-size: 70px;
+}
+
+@keyframes layout-regular-no-shadow {
+        from {
+                font-size: 0px
+        }
+
+        to {
+                font-size: auto;
+        }
+}
+
+
+@keyframes FOIL-font-size-40 {
+        from {
+                font-size: 1000px;
+        }
+
+        to {
+                font-size: 40px;
+        }
+}
