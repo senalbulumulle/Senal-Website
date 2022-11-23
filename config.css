@@ -36,9 +36,6 @@ li:hover {
         border-radius: 10px 10px 20px 30px;
         color: rgb(255, 255, 255);
         transition-duration: 1s;
-        box-shadow: -23px -5px 342px 81px rgba(0, 0, 0, 0.75);
-        -webkit-box-shadow: -23px -5px 342px 81px rgba(0, 0, 0, 0.75);
-        -moz-box-shadow: -23px -5px 342px 81px rgba(0, 0, 0, 0.75);
 
 }
 
